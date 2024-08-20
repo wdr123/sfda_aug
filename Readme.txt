@@ -23,7 +23,6 @@ PART I can be conducted offline.
 PART II: Mean-Teacher CoTeaching
 The code is based on MMDetection library. Please Install MMDetection following the instructions: https://mmdetection.readthedocs.io/en/latest/.
 
-
 1.Update mmdetection/configs with aug_msfda/configs
 2.Update mmdetection/mmdet with aug_msfda/mmdet
 3.To run pre-trained source models: take day_clear as an example, run: bash ./tools/dist_train.sh configs/faster_rcnn/faster-rcnn_r50_fpn_1x_day_clear.py 4
