@@ -4,7 +4,7 @@ Code for Text as a Bridge: Multi-Source Free Domain Adaptation for Object Detect
 
 --------------------------------------------------------------------------------------------
 
-This package contains source code for submission: Source-Data Free Multi-Source Domain Adaptation for Unsupervised  Object Detection
+This package contains source code for submission: Text as a Bridge: Multi-Source Free Domain Adaptation for Object Detection
 
 Dataset Preparation: Please download DWD dataset from: https://drive.google.com/drive/folders/1IIUnUrJrvFgPzU8D6KtV0CXa8k1eBV9B
 
