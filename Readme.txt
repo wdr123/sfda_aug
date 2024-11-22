@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------
 
-Code for Source-Data Free Multi-Source Domain Adaptation for Unsupervised  Object Detection
+Code for Text as a Bridge: Multi-Source Free Domain Adaptation for Object Detection
 
 --------------------------------------------------------------------------------------------
 
