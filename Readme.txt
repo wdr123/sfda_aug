@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------
 
-Code for Text as a Bridge: Multi-Source Free Domain Adaptation for Object Detection
+Code for "Multi-Source Teacher-Student Knowledge-Fusion for Source-Free Domain Adaptation in Object Detection"
 
 --------------------------------------------------------------------------------------------
 
