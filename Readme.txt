@@ -11,6 +11,7 @@ Dataset Preparation: Please download DWD dataset from: https://drive.google.com/
 
 This code mainly contains two parts: text-based augmentation and Mean-Teacher CoTeaching.
 
+
 PART I: text-based augmentation:
 1.The text-based feature augmentation is based on PODA, please install the PODA package following https://github.com/astra-vision/PODA/tree/master
 2.Add new augmentation file: poda/PIN_aug_R1.py to the PODA folder
@@ -28,3 +29,4 @@ The code is based on MMDetection library. Please Install MMDetection following t
 2.Update mmdetection/mmdet with aug_msfda/mmdet
 3.To run pre-trained source models: take day_clear as an example, run: bash ./tools/dist_train.sh configs/faster_rcnn/faster-rcnn_r50_fpn_1x_day_clear.py 4
 4.Step 3 can be conduced offline. After obtaining augmentation data, put the ./night_sunny_aug to mmdetection/datasets and train the target model: take day_foggy as an example, run: bash ./tools/dist_train_one.sh configs/faster_rcnn/faster-rcnn_r50_fpn_1x_sourcefree_cot_Nrainy_Nclear_freeze_aug.py 2
+
