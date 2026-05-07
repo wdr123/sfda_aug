@@ -21,7 +21,7 @@ PART I can be conducted offline.
 
 
 PART II: Mean-Teacher CoTeaching
-The code is based on MMDetection library. Please Install MMDetection following the instructions: https://mmdetection.readthedocs.io/en/latest/.
+The code is based on MMDetection library. Please Install MMDetection following the instructions below: https://mmdetection.readthedocs.io/en/latest/.
 
 
 1.Update mmdetection/configs with aug_msfda/configs
